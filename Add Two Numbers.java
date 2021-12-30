@@ -42,8 +42,8 @@ class Solution {
 //https://leetcode.com/problems/add-two-numbers/discuss/1044/Java-concise-solution.
 public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     int carry = 0;
-    ListNode p, dummy = new ListNode(0);
-    p = dummy;
+    ListNode p, head = new ListNode(0);
+    p = head;
     while (l1 != null || l2 != null || carry != 0) {
         if (l1 != null) {
             carry += l1.val;
@@ -57,5 +57,5 @@ public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         carry /= 10;
         p = p.next;
     }
-    return dummy.next;
+    return head.next;
 }
