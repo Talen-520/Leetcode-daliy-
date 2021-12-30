@@ -1,5 +1,7 @@
+// https://leetcode.com/problems/add-two-numbers/discuss/126659/My-Java-Solution
+
 class Solution {
-    /**
+    /**https://github.com/Talen-520/Leetcode-daliy-/blob/main/Add%20Two%20Numbers.java
      * This list node uses for optimize memory usage
      */
     private static final ListNode ZERO_NODE = new ListNode(0);
@@ -34,4 +36,4 @@ class Solution {
         return r;
     }    
 }
-// https://leetcode.com/problems/add-two-numbers/discuss/126659/My-Java-Solution
+
